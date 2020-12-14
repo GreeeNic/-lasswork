@@ -1,2 +1,2 @@
-import os
-os.remove('txt.txt')
+f = open('C:\projects/txt.txt', 'r')
+print(f.read())
